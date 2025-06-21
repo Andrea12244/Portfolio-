@@ -1,0 +1,46 @@
+ index.html 
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mental Health Support & Research</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header>
+    <h1>Mental Balance</h1>
+    <p>Support for You. Insights for Science.</p>
+  </header>
+
+  <main>
+    <section id="about">
+      <h2>About Us</h2>
+      <p>We provide mental health resources for individuals and support tools for researchers studying emotional well-being. Our goal is to connect care with knowledge.</p>
+    </section>
+
+    <section id="resources">
+      <h2>Resources for Everyone</h2>
+      <ul>
+        <li>Guided breathing and relaxation exercises</li>
+        <li>Self-assessment mental health quizzes</li>
+        <li>Support group finder and helplines</li>
+      </ul>
+    </section>
+
+    <section id="research">
+      <h2>Support for Researchers</h2>
+      <ul>
+        <li>Access to survey templates and anonymous data (user-consented)</li>
+        <li>Tools to collect emotional wellness feedback</li>
+        <li>Partnership opportunities with our wellness advisors</li>
+      </ul>
+    </section>
+  </main>
+
+  <footer>
+    <p>Contact: <a href="mailto:support@mentalbalance.org">support@mentalbalance.org</a></p>
+    <p>&copy; 2025 Mental Balance</p>
+  </footer>
+</body>
+</html>
