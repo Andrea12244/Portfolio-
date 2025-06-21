@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>MentalMind | Mental Health & Research Hub</title>
+  <title> LumaMind by Andrea Maurad /title>
   <style>
     body {
       font-family: 'Segoe UI', sans-serif;
@@ -15,7 +15,7 @@
 
     header {
       background-color: #6ca0dc;
-      color: white;
+      color: purple;
       text-align: center;
       padding: 2rem 1rem;
     }
@@ -83,8 +83,8 @@
 </head>
 <body>
   <header>
-    <h1>MentalMind</h1>
-    <p>Your space for healing and discovery.</p>
+    <h1>LumaMind</h1>
+    <p>Play Your Way to a Better Mind. </p>
   </header>
 
   <section class="hero">
@@ -101,16 +101,17 @@
       <li>🌿 Breathing & mindfulness exercises</li>
       <li>📖 Articles on anxiety, burnout, and depression</li>
       <li>🧍 Guided self-care routines</li>
+  
     </ul>
   </section>
 
   <section class="illustration">
-    <img src="https://cdn.pixabay.com/photo/2021/05/06/20/10/therapy-6235537_1280.png" alt="Cartoon of therapy session" />
+    <img src=https://static.vecteezy.com/system/resources/previews/012/959/093/large_2x/metaphor-bipolar-disorder-mind-mental-double-face-split-personality-concept-mood-disorder-2-head-silhouette-psychology-mental-health-dual-personality-concept-tangle-and-untangle-vector.jpg" alt=" />
   </section>
 
   <section id="research">
     <h2>Tools for Researchers</h2>
-    <p>MentalMind partners with researchers to improve understanding of mental wellness. We provide:</p>
+    <p>LumaMind partners with researchers to improve understanding of mental wellness. We provide many services, including:</p>
     <ul>
       <li>📊 Anonymous wellness data (user-consented)</li>
       <li>🧪 Research-friendly survey templates</li>
@@ -119,11 +120,9 @@
   </section>
 
   <section class="illustration">
-    <img src="https://cdn.pixabay.com/photo/2021/05/06/20/06/mental-health-6235535_1280.png" alt="Cartoon of researcher and data" />
+    <img src="https://static.vecteezy.com/system/resources/previews/013/116/169/original/mental-health-care-treatment-illustration-concept-specialist-doctor-work-to-give-psychology-therapy-tiny-people-character-with-ladder-design-banner-poster-or-media-social-printing-vector.jpg" />
   </section>
 
-  <footer>
-    <p>&copy; 2025 MentalMind. Healing through understanding.</p>
-  </footer>
+
 </body>
 </html>
