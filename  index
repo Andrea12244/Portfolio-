@@ -2,61 +2,37 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Luma Mind | Mental Health & Research Hub</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>MentalMind | Mental Health & Research Hub</title>
   <style>
-    :root {
-      --primary: #7f5af0;
-      --light-purple: #dcd3ff;
-      --background: #f5f3ff;
-      --text: #333;
-    }
-
-    * {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-    }
-
     body {
       font-family: 'Segoe UI', sans-serif;
-      background-color: var(--background);
-      color: var(--text);
+      background-color: #f0f8ff;
+      color: #333;
+      margin: 0;
+      padding: 0;
     }
 
     header {
-      background: linear-gradient(to right, var(--primary), #a67ee5);
+      background-color: #6ca0dc;
       color: white;
       text-align: center;
-      padding: 2.5rem 1rem;
+      padding: 2rem 1rem;
     }
 
     header h1 {
-      font-size: 3rem;
-      letter-spacing: 1px;
+      margin: 0;
+      font-size: 2.5rem;
     }
 
     header p {
-      font-size: 1.2rem;
       margin-top: 0.5rem;
-    }
-
-    nav {
-      background-color: #ece4ff;
-      text-align: center;
-      padding: 1rem;
-    }
-
-    nav a {
-      color: var(--primary);
-      text-decoration: none;
-      margin: 0 1rem;
-      font-weight: bold;
+      font-size: 1.2rem;
     }
 
     section {
-      padding: 2.5rem 1.5rem;
-      max-width: 1000px;
+      padding: 2rem 1.5rem;
+      max-width: 900px;
       margin: auto;
     }
 
@@ -65,115 +41,89 @@
       flex-direction: column;
       align-items: center;
       text-align: center;
-      background-color: white;
-      border-radius: 16px;
-      padding: 2rem;
-      box-shadow: 0 4px 12px rgba(0,0,0,0.08);
     }
 
     .hero img {
       max-width: 100%;
-      border-radius: 16px;
-      margin-bottom: 1.5rem;
+      border-radius: 12px;
+      margin-bottom: 1rem;
     }
 
-    .hero h2 {
-      font-size: 2rem;
-      color: var(--primary);
+    .hero-text h2 {
       margin-bottom: 0.5rem;
     }
 
     ul {
-      list-style: none;
-      padding-left: 0;
-      margin-top: 1rem;
+      list-style-type: none;
+      padding: 0;
     }
 
     ul li {
-      margin: 0.6rem 0;
+      margin: 0.5rem 0;
       font-size: 1.1rem;
     }
 
-    .section-title {
-      color: var(--primary);
-      font-size: 1.8rem;
-      margin-bottom: 1rem;
+    .illustration {
       text-align: center;
     }
 
-    .image-block {
-      text-align: center;
-      margin: 2rem 0;
-    }
-
-    .image-block img {
-      width: 100%;
-      max-width: 700px;
-      border-radius: 16px;
-      box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    .illustration img {
+      max-width: 100%;
+      border-radius: 12px;
+      margin: 1rem 0;
     }
 
     footer {
-      background-color: #eee6ff;
+      background-color: #dce9f8;
       text-align: center;
-      padding: 1.5rem;
-      margin-top: 2rem;
+      padding: 1rem;
       font-size: 0.95rem;
-      color: #555;
     }
   </style>
 </head>
 <body>
-
   <header>
-    <h1>Luma Mind</h1>
+    <h1>MentalMind</h1>
     <p>Your space for healing and discovery.</p>
   </header>
 
-  <nav>
-    <a href="#wellness">Wellness</a>
-    <a href="#research">For Researchers</a>
-    <a href="#gallery">Gallery</a>
-  </nav>
-
   <section class="hero">
-    <img src="https://img.freepik.com/premium-vector/flat-world-mental-health-day-illustration_23-2149632633.jpg?w=2000" alt="Mental health cartoon illustration" />
-    <h2>Heal. Reflect. Grow.</h2>
-    <p>At Luma Mind, we support individuals seeking peace and researchers exploring mental wellness. Discover tools, stories, and science — all in one space.</p>
+    <img src="https://cdn.pixabay.com/photo/2021/05/06/20/06/mental-health-6235533_1280.png" alt="Cartoon of mental health support" />
+    <div class="hero-text">
+      <h2>Prioritize Your Mental Health</h2>
+      <p>Explore calming tools, community support, and trustworthy information to take care of your mind.</p>
+    </div>
   </section>
 
-  <section id="wellness">
-    <h2 class="section-title">Support For You</h2>
+  <section id="resources">
+    <h2>Support for You</h2>
     <ul>
-      <li>🌿 Guided breathing and mindfulness sessions</li>
-      <li>📘 Articles on anxiety, self-care, and emotional health</li>
-      <li>🧘‍♀️ Daily routines for reflection and focus</li>
+      <li>🌿 Breathing & mindfulness exercises</li>
+      <li>📖 Articles on anxiety, burnout, and depression</li>
+      <li>🧍 Guided self-care routines</li>
     </ul>
   </section>
 
-  <section class="image-block">
-    <img src="https://cdn.pixabay.com/photo/2021/05/06/20/10/therapy-6235537_1280.png" alt="Therapy cartoon" />
+  <section class="illustration">
+    <img src="https://cdn.pixabay.com/photo/2021/05/06/20/10/therapy-6235537_1280.png" alt="Cartoon of therapy session" />
   </section>
 
   <section id="research">
-    <h2 class="section-title">Tools for Researchers</h2>
-    <p style="text-align:center;">
-      Luma Mind supports mental health researchers through ethical, community-focused resources:
-    </p>
+    <h2>Tools for Researchers</h2>
+    <p>MentalMind partners with researchers to improve understanding of mental wellness. We provide:</p>
     <ul>
-      <li>📊 Access to user-consented anonymous wellness data</li>
-      <li>🧪 Survey templates and engagement tools</li>
-      <li>📣 Outreach support for participants and feedback</li>
+      <li>📊 Anonymous wellness data (user-consented)</li>
+      <li>🧪 Research-friendly survey templates</li>
+      <li>🤝 Outreach to potential participants</li>
     </ul>
   </section>
 
-  <section id="gallery" class="image-block">
-    <img src="https://th.bing.com/th/id/R.d8523aa85f2156c678cec48d03b4f3fe?rik=yZqWnKBgpapSxw&pid=ImgRaw&r=0" alt="Mental health community cartoon" />
+  <section class="illustration">
+    <img src="https://cdn.pixabay.com/photo/2021/05/06/20/06/mental-health-6235535_1280.png" alt="Cartoon of researcher and data" />
   </section>
 
   <footer>
-    <p>Luma Mind — built with care to support your journey and inspire discovery.</p>
+    <p>&copy; 2025 MentalMind. Healing through understanding.</p>
   </footer>
-
 </body>
 </html>
