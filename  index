@@ -1,46 +1,129 @@
- index.html 
  <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Mental Health Support & Research</title>
-  <link rel="stylesheet" href="styles.css" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>MentalMind | Mental Health & Research Hub</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #f0f8ff;
+      color: #333;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background-color: #6ca0dc;
+      color: white;
+      text-align: center;
+      padding: 2rem 1rem;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2.5rem;
+    }
+
+    header p {
+      margin-top: 0.5rem;
+      font-size: 1.2rem;
+    }
+
+    section {
+      padding: 2rem 1.5rem;
+      max-width: 900px;
+      margin: auto;
+    }
+
+    .hero {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+
+    .hero img {
+      max-width: 100%;
+      border-radius: 12px;
+      margin-bottom: 1rem;
+    }
+
+    .hero-text h2 {
+      margin-bottom: 0.5rem;
+    }
+
+    ul {
+      list-style-type: none;
+      padding: 0;
+    }
+
+    ul li {
+      margin: 0.5rem 0;
+      font-size: 1.1rem;
+    }
+
+    .illustration {
+      text-align: center;
+    }
+
+    .illustration img {
+      max-width: 100%;
+      border-radius: 12px;
+      margin: 1rem 0;
+    }
+
+    footer {
+      background-color: #dce9f8;
+      text-align: center;
+      padding: 1rem;
+      font-size: 0.95rem;
+    }
+  </style>
 </head>
 <body>
   <header>
-    <h1>Mental Balance</h1>
-    <p>Support for You. Insights for Science.</p>
+    <h1>MentalMind</h1>
+    <p>Your space for healing and discovery.</p>
   </header>
 
-  <main>
-    <section id="about">
-      <h2>About Us</h2>
-      <p>We provide mental health resources for individuals and support tools for researchers studying emotional well-being. Our goal is to connect care with knowledge.</p>
-    </section>
+  <section class="hero">
+    <img src="https://cdn.pixabay.com/photo/2021/05/06/20/06/mental-health-6235533_1280.png" alt="Cartoon of mental health support" />
+    <div class="hero-text">
+      <h2>Prioritize Your Mental Health</h2>
+      <p>Explore calming tools, community support, and trustworthy information to take care of your mind.</p>
+    </div>
+  </section>
 
-    <section id="resources">
-      <h2>Resources for Everyone</h2>
-      <ul>
-        <li>Guided breathing and relaxation exercises</li>
-        <li>Self-assessment mental health quizzes</li>
-        <li>Support group finder and helplines</li>
-      </ul>
-    </section>
+  <section id="resources">
+    <h2>Support for You</h2>
+    <ul>
+      <li>🌿 Breathing & mindfulness exercises</li>
+      <li>📖 Articles on anxiety, burnout, and depression</li>
+      <li>🧍 Guided self-care routines</li>
+    </ul>
+  </section>
 
-    <section id="research">
-      <h2>Support for Researchers</h2>
-      <ul>
-        <li>Access to survey templates and anonymous data (user-consented)</li>
-        <li>Tools to collect emotional wellness feedback</li>
-        <li>Partnership opportunities with our wellness advisors</li>
-      </ul>
-    </section>
-  </main>
+  <section class="illustration">
+    <img src="https://cdn.pixabay.com/photo/2021/05/06/20/10/therapy-6235537_1280.png" alt="Cartoon of therapy session" />
+  </section>
+
+  <section id="research">
+    <h2>Tools for Researchers</h2>
+    <p>MentalMind partners with researchers to improve understanding of mental wellness. We provide:</p>
+    <ul>
+      <li>📊 Anonymous wellness data (user-consented)</li>
+      <li>🧪 Research-friendly survey templates</li>
+      <li>🤝 Outreach to potential participants</li>
+    </ul>
+  </section>
+
+  <section class="illustration">
+    <img src="https://cdn.pixabay.com/photo/2021/05/06/20/06/mental-health-6235535_1280.png" alt="Cartoon of researcher and data" />
+  </section>
 
   <footer>
-    <p>Contact: <a href="mailto:support@mentalbalance.org">support@mentalbalance.org</a></p>
-    <p>&copy; 2025 Mental Balance</p>
+    <p>&copy; 2025 MentalMind. Healing through understanding.</p>
   </footer>
 </body>
 </html>
